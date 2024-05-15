@@ -51,8 +51,6 @@ O objetivo foi criar um sistema de gestão escolar.
      <img src="./imagens/diagrama.png"  width="400px">   
 </p>
 
-<br>
-
 <h1>
     <br>
     <p style="font-weight: bold;">🎨 Layout</p>
@@ -159,7 +157,7 @@ Recados
     
 ## 👨‍💻 Colaboradores
 
-- BEATRZ RIBEIRO
+- BEATRIZ RIBEIRO
 - ELISABETE ALVES DOS SANTOS
 - KARENN SOUZA BUENO DE AZEVEDO
 - KELVEN MARTINS DA ROSA
