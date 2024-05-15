@@ -133,6 +133,12 @@ Notas
      <img src="./imagens/lancamento_de_notas_fornecedor.jpg"  width="400px">   
 </p>
 
+Turmas
+
+<p align="center">
+     <img src="./imagens/adicionar_turma_fornecedor.jpg"  width="400px">   
+</p>
+
 Recados
 
 <p align="center">
