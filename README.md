@@ -9,12 +9,12 @@
 
 ## 🧠 Contexto
 
-O objetivo foi criar um sistema de gestão escolar.
+O objetivo do projeto foi criar um sistema de gestão escolar.
 
 - 💻 Sobre o projeto
 - 🛠️ Caso de uso
 - 📁 Diagrama de Sequência
-- 🎨 Protótipos (Telas)
+- 🎨 Protótipo (Telas)
 - 🚧 Projeto em Construção (futuras melhorias)
 - 👨‍💻 Colaboradores
 - 📝 Licença
@@ -23,7 +23,7 @@ O objetivo foi criar um sistema de gestão escolar.
 
 ## 💻 Sobre o projeto
 
-<p align="justify"> ICTA é um projeto de um sistema escolar, esta documentação descreve todosn os casos de uso e telas do sistema, que constitui o pojeto integrador do curso de Análise e Desenvolvimento de Sistema - SENAC.
+<p align="justify"> ICTA é um projeto de um sistema escolar, esta documentação descreve todos os casos de uso e telas do sistema, que constitui o projeto integrador do curso de Análise e Desenvolvimento de Sistema - SENAC.
 
 <br>
 
@@ -51,10 +51,8 @@ O objetivo foi criar um sistema de gestão escolar.
      <img src="./imagens/diagrama.png"  width="400px">   
 </p>
 
-<h1>
-    <br>
-    <p style="font-weight: bold;">🎨 Layout</p>
-</h1>
+## 🎨 Protótipo (Telas)
+
 
 Login
 
