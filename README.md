@@ -32,7 +32,7 @@ O objetivo do projeto foi criar um sistema de gestão escolar.
 ### Aluno
 
 <p align="center">
-     <img src="./imagens/Aluno.png"  width="400px">   
+     <img src="./imagens/Aluno.png"  width="600px">   
 </p>
 
 <br>
@@ -40,7 +40,7 @@ O objetivo do projeto foi criar um sistema de gestão escolar.
 ### Professor/Fornecedor
 
 <p align="center">
-     <img src="./imagens/Professor.png"  width="400px">   
+     <img src="./imagens/Professor.png"  width="600px">   
 </p>
 
 <br>
@@ -48,7 +48,7 @@ O objetivo do projeto foi criar um sistema de gestão escolar.
 ## 📁 Diagrama de Sequência
 
 <p align="center">
-     <img src="./imagens/diagrama.png"  width="400px">   
+     <img src="./imagens/diagrama.png"  width="600px">   
 </p>
 
 ## 🎨 Protótipo (Telas)
@@ -57,91 +57,91 @@ O objetivo do projeto foi criar um sistema de gestão escolar.
 Login
 
 <p align="center">
-     <img src="./imagens/tela_de_login.jpg"  width="400px">   
+     <img src="./imagens/tela_de_login.jpg"  width="600px">   
 </p>
 
 Recuperação de senha
 
 <p align="center">
-     <img src="./imagens/recuperacao_de_senha.jpg"  width="400px">   
+     <img src="./imagens/recuperacao_de_senha.jpg"  width="600px">   
 </p>
 
 Cadastrar nova senha
 
 <p align="center">
-     <img src="./imagens/cadastrar_nova_senha.jpg"  width="400px">   
+     <img src="./imagens/cadastrar_nova_senha.jpg"  width="600px">   
 </p>
 
 Cadastro
 
 <p align="center">
-     <img src="./imagens/pessoa_fisica_ou_juridica.jpg"  width="400px">   
+     <img src="./imagens/pessoa_fisica_ou_juridica.jpg"  width="600px">   
 </p>
 <p align="center">
-     <img src="./imagens/cadastro_aluno.jpg"  width="400px">   
+     <img src="./imagens/cadastro_aluno.jpg"  width="600px">   
 </p>
 <p align="center">
-     <img src="./imagens/cadastro_fornecedorr.jpg"  width="400px">   
+     <img src="./imagens/cadastro_fornecedorr.jpg"  width="600px">   
 </p>
 
 Perfil
 
 <p align="center">
-     <img src="./imagens/perfil_aluno (1).jpg"  width="400px">   
+     <img src="./imagens/perfil_aluno (1).jpg"  width="600px">   
 </p>
 <p align="center">
-     <img src="./imagens/perfil_aluno.jpg"  width="400px">   
+     <img src="./imagens/perfil_aluno.jpg"  width="600px">   
 </p>
 <p align="center">
-     <img src="./imagens/perfil_fornecedor (1).jpg"  width="400px">   
+     <img src="./imagens/perfil_fornecedor (1).jpg"  width="600px">   
 </p>
 <p align="center">
-     <img src="./imagens/perfil_fornecedor.jpg"  width="400px">   
+     <img src="./imagens/perfil_fornecedor.jpg"  width="600px">   
 </p>
 <p align="center">
-     <img src="./imagens/perfil_professor.jpg"  width="400px">   
+     <img src="./imagens/perfil_professor.jpg"  width="600px">   
 </p>
 
 Vídeo aulas
 
 <p align="center">
-     <img src="./imagens/gravacao_de_aulas_fornecedor.jpg"  width="400px">   
+     <img src="./imagens/gravacao_de_aulas_fornecedor.jpg"  width="600px">   
 </p>
 
 Provas
 
 <p align="center">
-     <img src="./imagens/provas_aluno.jpg"  width="400px">   
+     <img src="./imagens/provas_aluno.jpg"  width="600px">   
 </p>
 
 Faturas
 
 <p align="center">
-     <img src="./imagens/faturas_aluno.jpg"  width="400px">   
+     <img src="./imagens/faturas_aluno.jpg"  width="600px">   
 </p>
 
 Notas
 
 <p align="center">
-     <img src="./imagens/notas__aluno.jpg"  width="400px">   
+     <img src="./imagens/notas__aluno.jpg"  width="600px">   
 </p>
 <p align="center">
-     <img src="./imagens/lancamento_de_notas_fornecedor.jpg"  width="400px">   
+     <img src="./imagens/lancamento_de_notas_fornecedor.jpg"  width="600px">   
 </p>
 
 Turmas
 
 <p align="center">
-     <img src="./imagens/adicionar_turma_fornecedor.jpg"  width="400px">   
+     <img src="./imagens/adicionar_turma_fornecedor.jpg"  width="600px">   
 </p>
 
 Recados
 
 <p align="center">
-     <img src="./imagens/recados_aluno.jpg"  width="400px">   
+     <img src="./imagens/recados_aluno.jpg"  width="600px">   
 </p>
 <p align="center">
-     <img src="./imagens/recados_fornecedor.jpg"  width="400px">   
+     <img src="./imagens/recados_fornecedor.jpg"  width="600px">   
 </p>
 
 <br>
