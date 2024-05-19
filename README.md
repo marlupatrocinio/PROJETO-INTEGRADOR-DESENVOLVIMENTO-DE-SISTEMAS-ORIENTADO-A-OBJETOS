@@ -1,180 +1,34 @@
-<h1 align="center">
-    <br>
-    <p align="center"> 🚀 Projeto Integrador<p>
-</h1>
-<p align="center">
-<img src="./imagens/logo.png" width="80%" height="50%"/>
-</p>
-<br>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## 🧠 Contexto
+## Getting Started
 
-O objetivo do projeto foi criar um sistema de gestão escolar.
+First, run the development server:
 
-- 💻 Sobre o projeto
-- 🛠️ Caso de uso
-- 📁 Diagrama de Sequência
-- 🎨 Protótipo (Telas)
-- 🚧 Projeto em Construção (futuras melhorias)
-- 👨‍💻 Colaboradores
-- 📝 Licença
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-<br>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 💻 Sobre o projeto
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-<p align="justify"> ICTA é um projeto de um sistema escolar, esta documentação descreve todos os casos de uso e telas do sistema, que constitui o projeto integrador do curso de Análise e Desenvolvimento de Sistema - SENAC.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-<br>
+## Learn More
 
-## 🛠️ Caso de uso
+To learn more about Next.js, take a look at the following resources:
 
-### Aluno
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-<p align="center">
-     <img src="./imagens/Aluno.png"  width="600px">   
-</p>
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-<br>
+## Deploy on Vercel
 
-### Professor/Fornecedor
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<p align="center">
-     <img src="./imagens/Professor.png"  width="600px">   
-</p>
-
-<br>
-
-## 📁 Diagrama de Sequência
-
-<p align="center">
-     <img src="./imagens/diagrama.png"  width="600px">   
-</p>
-
-## 🎨 Protótipo (Telas)
-
-
-Login
-
-<p align="center">
-     <img src="./imagens/tela_de_login.jpg"  width="600px">   
-</p>
-
-Recuperação de senha
-
-<p align="center">
-     <img src="./imagens/recuperacao_de_senha.jpg"  width="600px">   
-</p>
-
-Cadastrar nova senha
-
-<p align="center">
-     <img src="./imagens/cadastrar_nova_senha.jpg"  width="600px">   
-</p>
-
-Cadastro
-
-<p align="center">
-     <img src="./imagens/pessoa_fisica_ou_juridica.jpg"  width="600px">   
-</p>
-<p align="center">
-     <img src="./imagens/cadastro_aluno.jpg"  width="600px">   
-</p>
-<p align="center">
-     <img src="./imagens/cadastro_fornecedorr.jpg"  width="600px">   
-</p>
-
-Perfil
-
-<p align="center">
-     <img src="./imagens/perfil_aluno (1).jpg"  width="600px">   
-</p>
-<p align="center">
-     <img src="./imagens/perfil_aluno.jpg"  width="600px">   
-</p>
-<p align="center">
-     <img src="./imagens/perfil_fornecedor (1).jpg"  width="600px">   
-</p>
-<p align="center">
-     <img src="./imagens/perfil_fornecedor.jpg"  width="600px">   
-</p>
-<p align="center">
-     <img src="./imagens/perfil_professor.jpg"  width="600px">   
-</p>
-
-Vídeo aulas
-
-<p align="center">
-     <img src="./imagens/gravacao_de_aulas_fornecedor.jpg"  width="600px">   
-</p>
-
-Provas
-
-<p align="center">
-     <img src="./imagens/provas_aluno.jpg"  width="600px">   
-</p>
-
-Faturas
-
-<p align="center">
-     <img src="./imagens/faturas_aluno.jpg"  width="600px">   
-</p>
-
-Notas
-
-<p align="center">
-     <img src="./imagens/notas__aluno.jpg"  width="600px">   
-</p>
-<p align="center">
-     <img src="./imagens/lancamento_de_notas_fornecedor.jpg"  width="600px">   
-</p>
-
-Turmas
-
-<p align="center">
-     <img src="./imagens/adicionar_turma_fornecedor.jpg"  width="600px">   
-</p>
-
-Recados
-
-<p align="center">
-     <img src="./imagens/recados_aluno.jpg"  width="600px">   
-</p>
-<p align="center">
-     <img src="./imagens/recados_fornecedor.jpg"  width="600px">   
-</p>
-
-<br>
-
-## 🚧 Projeto em Construção (futuras melhorias)
-
-- Desenvolvimento do backend;
-- Implantação de código HTML e CSS para criação de uma interface capaz de possibilitar a interação do usuário com aplicação.
-
-<br>
-    
-## 👨‍💻 Colaboradores
-
-- BEATRIZ RIBEIRO DOS SANTOS
-- ELISABETE ALVES DOS SANTOS
-- KARENN SOUZA BUENO DE AZEVEDO
-- KELVEN MARTINS DA ROSA
-- KEVIN LOGAN GOMES PIRES
-- MARLU PATROCINIO RAMOSMDA SILVA
-- ODAIR GOMES SOARES
-
-<br> 
-    
-## 📝 Licença
-
-Este projeto esta sob a licença [MIT](./LICENSE).
-
-<br>
-
-<h2>
-  <a href='#top'>🔝 Voltar para o topo.</a>
-</h2>
-
-<br>
-
-### Feito com 💕 e muita dedicação
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

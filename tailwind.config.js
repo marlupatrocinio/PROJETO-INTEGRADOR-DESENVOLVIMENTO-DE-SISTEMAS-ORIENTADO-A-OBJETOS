@@ -10,6 +10,7 @@ module.exports = {
       colors: {
       'custom_blue':'#152139',
       'custom_yellow': '#D6DF22',
+      'custom_card': '#4f5b6b',
     },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
