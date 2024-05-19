@@ -8,70 +8,67 @@ const page = () => {
     const account_name = "Júlio Roberto"
     const matricula_number = "*******";
 
+    const items = [
+        { src: "/gold.png", label: "Notas", link: '/results' },
+        { src: "/mail.png", label: "Recados", link: '/messages' },
+        { src: "/coin.png", label: "Faturas", link: '/invoice' },
+        { src: "/book.png", label: "Minhas aulas", link: '/classes' },
+        { src: "/arrow.png", label: "Provas", link: '/school_test' },
+        { src: "/plus.png", label: "Adicionar cursos", link: '/record' },
+    ];
+
     return (
 
-        <main className='h-auto space-y-8 flex flex-col justify-around items-center p-0 sm:p-6 lg:p-44'>
+        <main className='h-full w-full space-y-8 flex flex-col justify-around items-center p-0 sm:p-6 lg:p-44'>
 
             <div className='w-full h-auto space-y-8 flex flex-col sm:flex-row justify-center items-center'>
 
-                <div className='w-full h-full flex flex-col space-y-8 justify-start items-start'>
+                <div className='w-full h-full flex flex-col space-y-8 justify-center items-center'>
 
-                    <Image className="h-auto max-w-full flex mb-0" src={'/Logo.webp'} width={500} height={50} alt="logo" priority />
+                    <div className='w-full h-auto flex md:flex-row flex-col justify-between items-center'>
 
-                    <div className='w-full h-auto flex justify-center items-center'>
+                        <Image className="h-auto max-w-full flex mb-0 p-6" src={'/Logo.webp'} width={500} height={50} alt="logo" priority />
 
-                        <div className='h-full justify-center items-center flex flex-col'>
-                            <FontAwesomeIcon icon={faCircleUser} className='text-custom_yellow h-5/6 w-5/6' />
-                            <FontAwesomeIcon icon={faCamera} className='text-white h-1/3 w-1/3 mt-4' />
-                        </div>
-                        <div className='h-full w-full justify-start ms-12 mt-12 items-start flex flex-col'>
-                            <p className='text-white text-2xl font-bold'>{account_name} -  Professor</p>
-                            <p className='text-white text-md font-medium'>Matrícula: {matricula_number}</p>
+                        <div className='h-auto justify-start items-center flex flex-col sm:flex-row'>
+                            <div className='h-auto w-auto justify-center items-end flex flex-col m-4'>
+                                <p className='text-white text-2xl font-bold'>{account_name} -  Aluno</p>
+                                <p className='text-white text-md font-medium'>Matrícula: {matricula_number}</p>
+                            </div>
+                            <FontAwesomeIcon icon={faCircleUser} height={100} className='text-custom_yellow' />
+                            <FontAwesomeIcon icon={faCamera} height={50} className='text-white m-4' />
                         </div>
                     </div>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-6 mb-8">
+                        {items.map(({ src, label, link }) => (
+                            <Link key={label} href={link}>
+                                <div  className="bg-gray-700 rounded-lg p-6 flex flex-col items-center">
+                                    <img src={src} alt={label} className="h-16 mb-4" />
+                                    <p className='text-white font-bold'>{label}</p>
+                                </div>
+                            </Link>
 
-                    <div className='h-auto w-full justify-center sm:justify-start items-center sm:p-0 flex'>
-                        <FontAwesomeIcon icon={faCirclePlus} style={{ height: '50px', color: 'gray' }} />
-                        <p className='text-white text-md font-medium ms-4'>Adicionar disciplina</p>
+                        ))}
                     </div>
                 </div>
-
-                <div className='flex flex-col space-y-4 w-full p-0 sm:p-24'>
-                    <button class="bg-custom_yellow hover:bg-blue-700 text-custom_blue font-bold py-2 px-4 rounded">
-                        DISCIPLINAS / ALUNOS
-                    </button>
-                    <button class="bg-custom_yellow hover:bg-blue-700 text-custom_blue font-bold py-2 px-4 rounded">
-                        SOLICITAÇÕES
-                    </button>
-                    <button class="bg-custom_yellow hover:bg-blue-700 text-custom_blue font-bold py-2 px-4 rounded">
-                        FINANCEIRO
-                    </button>
-                    <button class="bg-custom_yellow hover:bg-blue-700 text-custom_blue font-bold py-2 px-4 rounded">
-                        AGENDA
-                    </button>
-                </div>
-
-
-
 
             </div>
 
             <div className="flex space-x-20 justify-center items-center">
                 <div className='flex flex-col'>
-                    <FontAwesomeIcon icon={faPenToSquare}  style={{height: '30px'}} className='text-custom_yellow'/>
+                    <FontAwesomeIcon icon={faPenToSquare} style={{ height: '30px' }} className='text-custom_yellow' />
                     <p className='text-white text-md text-center'>Editar Perfil</p>
                 </div>
                 <Link href="/change_password">
-                <div className='flex flex-col'>
-                    <FontAwesomeIcon icon={faLock} style={{height: '30px'}} className='text-custom_yellow'/>
-                    <p className='text-white text-md text-center'>Alterar Senha</p>
-                </div>
+                    <div className='flex flex-col'>
+                        <FontAwesomeIcon icon={faLock} style={{ height: '30px' }} className='text-custom_yellow' />
+                        <p className='text-white text-md text-center'>Alterar Senha</p>
+                    </div>
                 </Link>
                 <Link href="/">
-                <div className='flex flex-col'>
-                    <FontAwesomeIcon icon={faRightFromBracket} style={{height: '30px'}} className='text-custom_yellow'/>
-                    <p className='text-white text-md text-center'>Sair</p>
-                </div>
+                    <div className='flex flex-col'>
+                        <FontAwesomeIcon icon={faRightFromBracket} style={{ height: '30px' }} className='text-custom_yellow' />
+                        <p className='text-white text-md text-center'>Sair</p>
+                    </div>
                 </Link>
 
             </div>

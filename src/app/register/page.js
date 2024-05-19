@@ -24,7 +24,7 @@ const page = () => {
                             <h1 className='text-2xl font-bold text-white'>SELECIONE UMA OPÇÃO:</h1>
 
                             <div className='flex flex-row items-center justify-start'>
-                                <Link href="/register/enterprise">
+                                <Link href="/register/personal">
                                     <button className='bg-custom_blue border-custom_yellow border-4 h-12 w-12 shadow-sharp shadow-custom_yellow'>
 
                                     </button>
@@ -34,7 +34,7 @@ const page = () => {
 
 
                             <div className='flex flex-row items-center justify-center ms-6'>
-                                <Link href="/register/personal">
+                                <Link href="/register/enterprise">
                                     <button className='bg-custom_blue border-custom_yellow border-4 h-12 w-12 shadow-sharp shadow-custom_yellow'>
 
                                     </button>
